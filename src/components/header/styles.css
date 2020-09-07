@@ -1,0 +1,87 @@
+/* MENU */
+.header h1 {
+    color: #fff;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+}
+.header-image{
+    background-image: url(../../assets/header2.webp)!important;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 80vh;
+}
+.header-show{
+    background-color: #fff;
+}
+.header a {
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    color: #000!important;
+}
+ul.mr-auto.nav a:first-child {
+    padding-right: 1rem;
+}
+.header a:hover {
+    text-decoration: none;
+    color: #000;
+}
+.logoHeader {
+    width: 95px;
+}
+.hr-home {
+    height: 2.5vh;
+    width: 8vw;
+    background-color: #e5e091;
+    margin: 0 auto;
+    margin-top: -1.25vh;
+    border-radius: 50px 50px;
+    border: none;
+}
+
+
+.header .navbar {
+    padding: 0!important;
+    padding-right: 3rem!important;
+}
+ul.mr-auto.nav {
+    text-transform: uppercase;
+    margin-left: auto!important;
+    margin-right: 0!important;
+}
+
+
+
+
+@media all and (max-width: 765px) { 
+
+    
+    /*HEADER */
+
+    .logoHeader{
+        width: 110px;
+    }
+
+    .header {
+        background-position: inherit;
+    }
+
+    .header .navbar {
+        padding-right: 0rem!important;
+    }
+    .hr-home {
+        width: 18vw;
+    }
+
+}
+
+@media all and (max-width: 415px) {
+
+    .hr-home {
+        height: 2.5vh;
+        margin-top: -1.25vh;
+        width: 41vw;
+    }
+
+}
